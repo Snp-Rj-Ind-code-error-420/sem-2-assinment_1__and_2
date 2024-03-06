@@ -91,8 +91,10 @@ str_to_join_split="Hello world, how are you?"
 # print(str_to_join_split.split(' ')) # debug 
 splitted_list=str_to_join_split.split(' ')
 print('-'.join(splitted_list))
+```
 
-
+## Q4 i,ii,iii
+```
 student_info={"name":'ola','age':'12','grade':'6','city':'disney'}
 
 print(student_info['age'])
