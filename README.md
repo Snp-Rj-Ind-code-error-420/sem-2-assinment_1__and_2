@@ -9,6 +9,10 @@
 - [x] only important question
 - [ ] theory not available (diy from pdf)
 
+### raw code
+- [assingment 1](https://github.com/Snp-Rj-Ind-code-error-420/sem-2-assinment_1__and_2/blob/main/ass1.py)
+- [assingment 2](https://github.com/Snp-Rj-Ind-code-error-420/sem-2-assinment_1__and_2/blob/main/ass2.py)
+
 ## Q3 distance travel 
 ```
 time=float(input("Enter the time(hour)"))
