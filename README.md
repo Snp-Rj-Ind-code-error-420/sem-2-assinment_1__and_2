@@ -9,12 +9,12 @@
 - [x] only important question
 - [ ] theory not available (diy from pdf)
 
-### raw code
+### raw code 
 - [assingment 1](https://github.com/Snp-Rj-Ind-code-error-420/sem-2-assinment_1__and_2/blob/main/ass1.py)
 - [assingment 2](https://github.com/Snp-Rj-Ind-code-error-420/sem-2-assinment_1__and_2/blob/main/ass2.py)
 
 ## Q3 distance travel 
-```
+```python
 time=float(input("Enter the time(hour)"))
 distance=float(input("Enter the Distance(kilometer)"))
 speed=distance/time
@@ -26,7 +26,7 @@ else:
 
 ```
 ## Q4 prime number test
-```
+```python
 def check_prime(input_variable:int) ->bool:
 	cnt=0
 	for  i in range(1,input_variable+1):
@@ -50,7 +50,7 @@ for i in range(1,10001):
 		print()
 ```
 ## Q5 print of 5
-```
+```python
 num=int(input("enter the number"))
 for i in range(1,num+1):
 	for ii in range(num,0,-1):
@@ -58,7 +58,8 @@ for i in range(1,num+1):
 	print()
 ```
 ## Q6 sum and square
-```lst=[i for i in range(1,11)]
+```python
+lst=[i for i in range(1,11)]
 
 def sm(lst:list) -> float:
 	sm=0
@@ -83,14 +84,14 @@ print(sm(lst))
 
 # python assingment 2 
 ## Q2 ii slicing Python 
-```
+```python
 str_to_Slice="I LOVE PYTHON LANGUAGE"
 
 print(len(str_to_Slice))
 print(str_to_Slice[7:13])# sliced
 ```
 ## Q3 split and join
-```
+```python
 str_to_join_split="Hello world, how are you?"
 # print(str_to_join_split.split(' ')) # debug 
 splitted_list=str_to_join_split.split(' ')
@@ -98,7 +99,7 @@ print('-'.join(splitted_list))
 ```
 
 ## Q4 i,ii,iii
-```
+```python
 student_info={"name":'ola','age':'12','grade':'6','city':'disney'}
 
 print(student_info['age'])
